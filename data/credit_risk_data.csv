@@ -1,0 +1,11 @@
+age,job,credit_amount,duration_months,purpose,default
+35,skilled,5000,36,car,0
+42,unskilled,12000,48,education,1
+23,student,1500,12,car,0
+45,management,9000,24,house,0
+37,self-employed,7000,36,car,1
+29,skilled,2500,18,car,0
+50,unskilled,10000,60,education,1
+31,management,3000,12,car,0
+28,self-employed,6000,36,business,0
+40,skilled,4000,24,car,1
