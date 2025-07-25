@@ -7,26 +7,6 @@ The goal is to predict the likelihood of credit default for loan applicants usin
 
 ---
 
-## Repository Structure
-
-credit-risk-analysis-mongodb/
-│
-├── data/
-├── output/
-│ ├── model.pkl # Serialized ML model
-│ ├── metrics.json # Training/validation metrics
-│ └── predictions.csv # Test set model predictions
-├── src/ # Source code scripts
-│ ├── data_ingestion.py # Load data from MongoDB and export as CSV
-│ ├── feature_selection.py # Automated feature selection using Random Forest
-│ ├── model_training.py # Model training and evaluation with XGBoost
-│ ├── api.py # Flask REST API for model inference
-│ └── config.py # Configuration file (optional)
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation (this file)
-└── .gitignore # Files and folders ignored by Git
-
-
 ### Prerequisites
 
 - Python 3.7 or higher
